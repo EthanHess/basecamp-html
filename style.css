@@ -1,0 +1,139 @@
+.right a, .left a {
+    color: #F2F7F7; 
+    font-size: 24px; 
+    font-family: sans-serif; 
+    display: block; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+.right li {
+    float: right;
+}
+.left li {
+    float: left;
+}
+.right ul, .left ul {
+    background-color: #2B2C2C;
+    list-style-type: none; 
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.active {
+    background-color: #2AB9B9; 
+}
+p {
+    font-size: 24; 
+    font-family: sans-serif; 
+    padding: 10px 60px; 
+}
+img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+footer {
+    background-color: #2B2C2C;
+}
+#footText {
+    color: #F2F7F7; 
+}
+#mainImage {
+    background-image: url("images/albert.jpeg"); 
+}
+.picBackdrop {
+    background-position: center; 
+    background-size: cover; 
+}
+.squaresOne {
+    background-color: rgb(4, 92, 92); 
+    /* width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /* for centering 3 blocks in the center */
+    /* justify-content: space-between; for space in between */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+ul.squares{
+    list-style-type:square;      
+}
+.squares li {
+    float:left;
+    background-color: rgb(118, 230, 230); 
+    margin-right:10px;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    display: flex; 
+}
+.rectanglesOne {
+    background-color: rgb(118, 230, 230); 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+ul.rectangles {
+    /* float:left;
+    background-color: rgb(4, 92, 92); 
+    margin-right:10px;
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    display: flex;  */
+    list-style-type: square;
+}
+.rectangles li {
+    float:left;
+    background-color: rgb(14, 92, 92); 
+    margin-right:10px;
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    display: flex; 
+}
+.imageAndText {
+    background-color: rgb(216, 231, 231); 
+    display: inline;
+    flex-direction: row;
+    list-style-type: square;
+}
+.items {
+    width: 100%;
+    display: inline-block;
+}
+.picItem {
+    width: 400px; 
+    background-image: url("images/albert.jpeg"); 
+    float: right;
+    margin: 100px; 
+}
+.textItem {
+    width: 400px; 
+    float: left;
+}
+/* .imageAndText li {
+    background-color: rgb(216, 231, 231);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+ul.imageAndText {
+    float:left;
+    background-color: rgb(4, 92, 92); 
+    margin-right:10px;
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    display: flex; 
+} */
+h1 {
+    margin: 0; 
+    padding: 120px 10px; 
+    height: 60px; 
+    text-align: center; 
+    color: #F2F7F7; 
+    font-size: 72px; 
+    font-family: sans-serif; 
+}
